@@ -7,9 +7,9 @@ class Dog
     @name = name
     end 
   def self.all 
-     @@all.each do |dog| 
+     @@all.each do |dog|
+         binding.pry
       puts dog.name
-  binding.pry
     end 
     end 
   def self.print_all
