@@ -9,7 +9,7 @@ class Dog
   def self.all 
      @@all.each do |dog| 
       puts dog.name
-      binding.pry
+  binding.pry
     end 
     end 
   def self.print_all
